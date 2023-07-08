@@ -1,0 +1,400 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Poppins:ital,wght@0,700;1,700&display=swap');
+/* global start */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    height: 200vh;
+    background-color: rgba(223, 223, 223, 0.733);
+    max-width:100%;
+}
+
+:root{
+    Pink :hsl(322, 100%, 66%);
+    light pink: hsl(321, 100%, 78%);
+    light red: hsl(0, 100%, 63%);
+    Very Dark Cyan: hsl(192, 100%, 9%);
+    Very Pale Blue: hsl(207, 100%, 98%);
+
+}
+.container{
+    margin:0 6rem;
+}
+/* global end */
+/* header start */
+header{
+    font-family: 'Poppins', sans-serif;
+    margin: 0 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 22vh;
+    padding-top: 20px;
+}
+
+.btn{
+    padding:10px 15px ;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 20px;
+    width: 140px;
+    color: hsl(322, 100%, 66%);
+    cursor: pointer;
+    font-size: 15px;
+
+
+}
+button:hover{
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+}
+
+/* header end  */
+
+/*  home section start  */
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    height: 64vh;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 100px;
+    padding-left: 70px;
+    
+}
+
+.home h1{
+    font-size: 47px;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom:17px;
+    font-weight:800;
+    padding-left: 10px;
+    font-weight: 900;
+}
+
+.home p{
+    text-align: center;
+    color: black;
+    font-size: 400;
+    margin-bottom: 40px;
+}
+
+
+.home .btnhome{
+    padding: 17px;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 30px;
+    width: 250px;
+    color:#fff;
+    background-color:hsl(322, 100%, 66%) ;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+
+
+}
+.btnhome:hover{
+    background-color:#fff ;
+    color:hsl(322, 100%, 66%);
+}
+
+
+/*  home section end */
+
+/* mouckups start */
+
+.mouckups{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding-left: 16vh;
+    height:120 vh;
+    width: 1px;
+}
+/*mouckups end  */
+
+/* communities & messages start */
+.mlions div{
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    margin-top: 37px;
+    height: 30vh;
+   
+}
+.mlions .one {
+    display: block;
+    position: relative;
+    z-index: -999;
+
+}
+
+.mlions .two h1{
+    font-size: 60px;
+    margin-bottom: px;
+
+}
+
+
+.mlions .one h1{
+    font-size: 60px;
+    margin-bottom: 6px;
+}
+
+
+.mlions .two{
+    display: block;
+    position: relative;
+    z-index: -999;
+
+}
+
+.mlions .one img{
+    padding-left: 7px;
+}
+
+.mlions .two img{
+    padding-left:1 px;
+    
+}
+
+
+/* communities & messages end */
+
+
+/* Grow Togetherstart */
+
+
+.Grow-Together{
+
+   display: flex;
+   align-items: center;
+   position: relative;
+   margin-bottom: 30vh;
+   height: 70vh;
+   padding-bottom: 80px;
+   margin-left: 80px;
+   
+
+}
+.Togetherone{
+    width: 40%;
+    margin-bottom: 15px;
+    position: absolute;
+    align-items: center;
+    height: 100vh;
+    padding-top: 60px;
+
+}
+
+.Togetherone h1{
+    font-size:26px ;
+    font-weight: 900;
+    padding-bottom: 14px;
+}
+
+.Togethertwo{
+    width: 50%;
+    position: absolute;
+    padding-left: 100vh;
+
+
+}
+        
+/* Grow Together end */
+
+/* flowing start  */
+
+.flowing{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+     
+}
+
+.flowing .flowingone{
+    width: 50%;
+    position: absolute;
+   padding-left:50px;
+}
+
+.flowing .flowingtwo{
+    position: absolute;
+    padding-left: 100vh;
+    padding-top: 10vh;
+    align-items: center;
+    
+}
+
+.flowing .flowingtwo h1{
+    font-size:26px ;
+    font-weight: 900;
+    padding-bottom: 14px;
+}
+/* flowing end */
+
+
+/* users start */
+
+
+.users{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-bottom: 30vh;
+    height: 100vh;
+    padding-bottom: 80px;
+    margin-left:80px;
+    
+
+
+}
+
+.users .usersone{
+    width: 40%;
+    margin-bottom: 15px;
+    position: absolute;
+    align-items: center;
+    height: 100vh;
+    padding-top: 60px;
+
+
+}
+.usersone h1{
+    font-size:26px ;
+    font-weight: 900;
+    padding-bottom: 14px;
+}
+
+.users .userstwo{
+
+    width: 50%;
+    position: absolute;
+    padding-left: 100vh;
+
+}
+
+
+/* users end */
+
+
+/* ender start */
+
+.ender{
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+}
+
+.ender h1{
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.ender button{
+    width: 400px;
+    font-size: 20px;
+    padding:10px 15px ;
+    border: 1px solid hsl(322, 100%, 66%);
+    border-radius: 20px;
+    color:#fff;
+    cursor: pointer;
+    background-color: hsl(322, 100%, 66%) ;
+ 
+}
+/* ender end */
+/* section foooter start */
+.footer{
+  display: flex;
+  margin-left: 100px;
+}
+
+
+
+.footer .one{
+    width: 60%;
+    position: absolute;
+
+}
+
+.one .text{
+    font-size: 20px;
+    margin-top: 19px;
+    margin-bottom: 30px;
+}
+.one .twinz p{
+    padding-left: 10px;
+    display: flex;
+    font-weight: bold;
+}
+.one .twinz i{
+    font-size: 21px;
+}
+.one .twinz{
+    display: flex;
+    margin-top: 26px;
+    height: 15px;
+    font-size: 18px;
+ 
+} 
+.social{
+    display: flex;
+    font-size: 46px;
+    margin-top: 70px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.social i{
+    margin-right: 25px;
+}
+
+
+
+
+
+/* ----------------------------------------------------------- */
+
+.footer .two{
+    width: 70%;
+    height: 100%;
+    padding-left:96vh ;
+    position: absolute;
+    padding-bottom: 300vh;
+    
+
+  
+}
+
+.footer .two h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+ 
+}
+
+.footer .two input{
+    padding: 8px 13px;
+    border: none;
+    border-radius: 4px;
+}
+.footer .two p{
+    margin-bottom: 20px;
+}
+
+.footer .two button{
+    padding: 8px 14px;
+    background-color: hsl(322, 100%, 66%);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+}
+/* section foooter end */
